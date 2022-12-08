@@ -1,0 +1,161 @@
+.drop {
+  background-image: url(../../img/categories/Pattern.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+  
+   
+}
+
+.drop__title {
+    margin-top: 117px;
+    margin-bottom: 25px;
+   
+
+}
+
+.drop__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.drop__form {
+    border: 1px solid #E7B226;
+    
+    background-blend-mode: normal, color-dodge;
+    margin-bottom: 117px;
+    display: flex;
+
+   
+
+      @media(max-width: 700px) {
+      
+        min-width: 350px;
+        flex-direction: column;
+        border: none;
+        margin-bottom: 300px;
+        
+         
+       }
+
+       @media(max-width: 350px) {
+      
+        width: 200px;
+       
+        
+         
+       }
+
+
+   
+    
+}
+
+.drop__input-wrap {
+    display: flex;
+    min-height: 96px;
+    min-width: 680px;
+    justify-content: space-between;
+    align-items: center;
+
+    @media(max-width: 700px) {
+      
+        min-width: 353px;
+        flex-direction: column;
+        border: none;
+        gap: 30px;
+        
+       
+       }
+
+       @media(max-width: 350px) {
+      
+        max-width: 200px;
+       
+        
+         
+       }
+
+    
+
+    
+       
+        
+        
+       
+        
+    }
+
+.drop__btn-1 {
+        display: block;
+    }
+
+    
+
+.drop__input {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height, or 148% */
+    color: #A48EA9;
+    display: flex;
+    background: none;
+    border: none;
+    flex-grow: 1;
+    outline: none;
+    padding: 30px 15px 30px 53px;
+    color: white;
+
+    &::placeholder {
+        color: #A48EA9;
+    }
+
+    @media(max-width: 700px) {
+      
+        
+        
+        border: 1px solid #E7B226;
+       
+       }
+
+       @media(max-width: 350px) {
+      
+        max-width: 310px;
+        
+         
+       }
+}
+.drop__btn {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height, or 148% */
+    background: #E7B226;
+    padding: 32px 63px;
+
+
+    color: #251928;
+
+    transition: .2s ease-in-out;
+
+    &:hover {
+        -webkit-box-shadow: 0px 0px 11px 6px rgba(223, 191, 69, 0.6);
+        -moz-box-shadow: 0px 0px 11px 6px rgba(223, 191, 69, 0.6);
+        box-shadow: 0px 0px 11px 6px rgba(223, 191, 69, 0.6);
+
+    
+    }
+
+    
+
+    
+
+}
+

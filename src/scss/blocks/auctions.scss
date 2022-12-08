@@ -1,0 +1,263 @@
+.auctions {
+    
+}
+
+.auctions__img {
+  position: relative;
+
+   img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    
+    &:first-child {
+
+        height: 300px;
+
+    }
+
+   
+
+    
+    
+   }
+
+   div {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    background: linear-gradient(125.33deg, #8613A5 18.61%, rgba(250, 250, 250, 0.65) 137.4%);
+    opacity: 0.95;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(22.5px);
+    border-radius: 0px;
+    padding: 15px 45px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    color: #F5FBF2;
+
+      @media(max-width: 1300px) {
+        font-size: 15px;
+        padding: 10px 25px;
+      }
+   }
+}
+
+.auctions__item {
+    background: #3D2942;
+    padding: 32px;
+
+    
+}
+
+.auctions-profile__owner {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 35px;
+    color: #F5FBF2;
+
+    @media(max-width: 1300px) {
+        font-size: 18px;
+      }
+}
+
+.auctions-profile__nick {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #BDAAC1;
+
+    @media(max-width: 700px) {
+        font-size: 14px;
+    }
+
+    
+}
+
+.auctions-profile__likes {
+
+    display: flex;
+    align-items: center;
+    
+    img {
+        width: 28px;
+        
+        
+
+        @media(max-width: 1300px) {
+            width: 20px;
+          }
+        
+    }
+
+    span {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 35px;
+        color: #76607A;
+        margin-left: 5px;
+
+        @media(max-width: 1300px) {
+            font-size: 24px;
+          }
+
+          @media(max-width: 320px) {
+
+            font-size: 20px;
+            margin-left: 3px;
+    
+             
+         }
+    }
+
+    @media(max-width: 700px) {
+        width: 50px;
+        
+      }
+    
+}
+
+.swiper-wrapper {
+    @media(max-width: 700px) {
+        flex-direction: column;
+        grid-gap: 45px;
+        
+      }
+}
+
+.auctions-slide {
+    @media(max-width: 700px) {
+        display: none;
+    }
+}
+
+.auctions__profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 28px 0;
+
+
+        
+    @media(max-width: 320px) {
+
+        justify-content: center;
+        
+
+         
+     }
+
+   
+
+    
+}
+
+.auctions-profile__guy {
+    display: flex;
+    align-items: center;
+    max-height: 70px;
+
+    img {
+            display: block;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 16px;
+            min-width: 64px;
+            height: 64px;
+
+            @media(max-width: 320px) {
+
+                margin-right: 5px;
+        
+                 
+             }
+
+             @media(max-width: 450px) {
+
+                margin-right: 5px;
+        
+                 
+             }
+    }
+
+  
+  
+    @media(max-width: 320px) {
+
+        max-width: 200px;
+       
+         
+     }
+
+    
+
+   
+    
+
+}
+
+.auctions-bid__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #C6BFC8;
+
+    @media(max-width: 1300px) {
+        font-size: 18px;
+      }
+}
+
+.auctions-bid__price {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+
+    @media(max-width: 1300px) {
+        font-weight: 600;
+        font-size: 18px;
+      }
+}
+
+.auctions__bid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auctions__btn {
+    display: block;
+    background: rgba(233, 215, 167, 0.1);
+    border: 1px solid #FDE8B3;
+    padding: 21px 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    width: 100%;
+    margin-top: 40px;
+    transition: all .2s;
+
+    &:hover {
+        background: darken(rgba(233, 215, 167, 0.1), 50);
+
+    }
+}
+
+.title-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+
+.auctions__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 84px;
+}

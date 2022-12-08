@@ -1,0 +1,31 @@
+.categories {
+
+}
+
+.categories__title {
+    margin-top: 84px;
+
+    @media(max-width: 650px) {
+
+        margin-top: 50px;
+    
+       
+        
+      }
+}
+
+
+.categories__item {
+  display: flex;
+  flex-direction: column;
+    
+  
+
+
+}
+    
+
+   
+
+
+

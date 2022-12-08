@@ -1,0 +1,163 @@
+.how {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 84px;
+}
+
+.how__title {
+    text-align: center;
+
+    @media(max-width: 900px) {
+    
+       font-size: 64px;
+      }
+}
+
+.items__row {
+    margin-top: 24px;
+    display: flex;
+    gap: 164px;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+    @media(max-width: 500px) {
+    
+        grid-gap: 20px;
+        flex-wrap: wrap;
+
+        
+
+        
+      }
+
+      @media(max-width: 1000px) {
+    
+        
+        flex-wrap: wrap;
+        gap: 50px;
+
+        
+
+        
+      }
+
+      @media(max-width: 700px) {
+    
+        gap: 20px;
+        
+      }
+}
+
+.items__row-item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+    @media(max-width: 500px) {
+    
+        flex-basis: 39%;
+        
+      }
+
+      @media(max-width: 1000px) {
+    
+        flex-basis: 50%;
+        gap: 0px;
+        
+        
+      }
+
+      
+    
+
+  
+}
+
+.items__row-pic {
+    background: #372839;
+    border-radius: 50%;
+    width: 106px;
+    height: 106px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    
+     
+
+     
+    
+    
+    img {
+        max-width: 70%;
+
+        @media(max-width: 500px) {
+    
+            max-width: 40%;
+            
+          }
+
+          @media(max-width: 900px) {
+    
+            max-width: 50%;
+            
+          }
+        
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: -57px;
+        transform: translateY(-50%) translateX(100%);
+        background: url('../../img/asd.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 165px;
+        height: 10px;
+
+
+          @media(max-width: 1000px) {
+            display: none;
+    
+        
+        }
+
+         
+        
+    }
+}
+
+.items__row-text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFCE4E;
+    text-align: center;
+
+    @media(max-width: 500px) {
+    
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        
+        
+      }
+
+      @media(max-width: 650px) {
+    
+        font-size: 20px;
+        
+    }
+    
+}
