@@ -1,5 +1,5 @@
 export let configFTP = {
-	host: "https://deadlycoward.github.io/NFT-landing/",
+	host: "",
 	user: "",
 	password: "",
 	parallel: 5

@@ -3816,12 +3816,12 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 300px;
   display: block;
 }
 
 .auctions__img img:first-child {
-  height: 300px;
+  max-height: 280px;
 }
 
 .auctions__img div {
