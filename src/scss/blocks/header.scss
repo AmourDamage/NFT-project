@@ -215,12 +215,14 @@
     }
 
     .header__burger_close {
-        display: none;
-        position: relative;
-
-        z-index: 100;
+       
 
         &.active {
             display: block;
         }
+
+        display: none;
+        position: relative;
+
+        z-index: 100;
     }
