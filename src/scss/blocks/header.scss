@@ -190,11 +190,7 @@
         
     }
 
-  
 
-    
-
-  
     }
 
     .header__burger {
@@ -216,13 +212,16 @@
 
     .header__burger_close {
        
-
-        &.active {
-            display: block;
-        }
-
         display: none;
         position: relative;
 
         z-index: 100;
+
+        &.active {
+            display: block;
+            width: 40px;
+            height: 40px;
+        }
+
+       
     }
