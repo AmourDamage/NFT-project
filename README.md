@@ -1,7 +1,7 @@
 # NFT Project
-
+------ 
 __NFT project offer you to see the most rare NFT items__
-
+------ 
 ***Used technologies***
 
 1.Gulp
@@ -9,12 +9,12 @@ __NFT project offer you to see the most rare NFT items__
 3.Scss
 4.AOS-Animation
 5.Adaptive lay-out for different screens.
-
+ ------ 
 
 
 
 __Deploy :https://classy-ganache-e1fa37.netlify.app/__
-
+------ 
 
 To run this project you need to install NODE.js and GULP
 
