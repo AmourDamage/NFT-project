@@ -4,9 +4,11 @@ __NFT project offer you to see the most rare NFT items__
 ------ 
 ***Used technologies***
 
+* HTML
+* Scss
+* JavaScript
 * Gulp
 * Swiper
-* Scss
 * AOS-Animation
 * Adaptive lay-out for different screens.
  ------ 
