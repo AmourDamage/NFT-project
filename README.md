@@ -4,11 +4,11 @@ __NFT project offer you to see the most rare NFT items__
 ------ 
 ***Used technologies***
 
-*Gulp
-*Swiper
-*Scss
-*AOS-Animation
-*Adaptive lay-out for different screens.
+Gulp
+Swiper
+Scss
+AOS-Animation
+Adaptive lay-out for different screens.
  ------ 
 
 
